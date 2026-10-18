@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en" data-startup="locked">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>studioname — Web design & development studio</title>
+<meta name="description" content="Independent studio designing and shipping websites, 3D and motion for ambitious brands.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<noscript><style>html[data-startup]{overflow:auto!important}html[data-startup] body{overflow:auto!important}#preloader{display:none}.reveal{opacity:1;filter:none;transform:none}</style></noscript>
+<script>
+  /* ====== YOUR DETAILS ====== */
+  window.STUDIO = { name:"studioname", email:"hello@yourstudio.com", phone:"+91 00000 00000",
+    city:"Bengaluru, India", cityShort:"Bengaluru", tz:"Asia/Kolkata", booking:"https://cal.com/" };
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"How long does a typical website take?","acceptedAnswer":{"@type":"Answer","text":"Most marketing sites take 4–8 weeks from intro call to launch."}},
+{"@type":"Question","name":"Do you work with clients outside India?","acceptedAnswer":{"@type":"Answer","text":"Yes — most of our clients are in the UK, EU and US. We keep fixed overlap hours and run everything async in between."}},
+{"@type":"Question","name":"Can we edit the site ourselves after launch?","acceptedAnswer":{"@type":"Answer","text":"Yes. We build on a headless CMS and hand over with a recorded walkthrough."}}]}
+</script>
+</head>
+<body>
+
+<!-- ============ PRELOADER ============ -->
+<div id="preloader" class="preloader" aria-hidden="false">
+  <div class="pl-stack">
+    <div class="pl-corner pl-tl"></div>
+    <div class="pl-counter" role="progressbar" aria-label="Loading" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
+    <div class="pl-corner pl-tr"><p class="pl-copy">An independent studio designing and shipping websites, 3D and motion for brands that care about the details.</p></div>
+    <div class="pl-corner pl-bl"><p class="pl-copy">Small senior team. Fixed scopes. Working with clients across India, Europe and the US.</p></div>
+    <div class="pl-corner pl-br"><span class="pl-mail">hello@yourstudio.com</span></div>
+  </div>
+</div>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header">
+  <div class="hdr-row">
+    <a href="#top" class="logo" aria-label="studioname home">studioname</a>
+    <nav class="nav" aria-label="Primary">
+      <a class="link-draw" href="#work">Services</a>
+      <a class="link-draw" href="#work">Works</a>
+      <a class="link-draw" href="#process">About</a>
+      <a class="link-draw" href="#testimonials">Team</a>
+      <a class="link-draw" href="#pricing">Pricing</a>
+      <a class="link-draw" href="#contact">Contact</a>
+    </nav>
+    <button class="menu-btn" id="menu-open" aria-controls="mobile-menu">Menu</button>
+  </div>
+</header>
+<div class="mobile-menu" id="mobile-menu" aria-label="Menu">
+  <div class="hdr-row"><span class="logo">studioname</span><button class="menu-btn" id="menu-close" style="display:block">Close</button></div>
+  <nav>
+    <a class="reveal" href="#work">Services</a><a class="reveal" href="#work">Works</a><a class="reveal" href="#process">About</a>
+    <a class="reveal" href="#testimonials">Team</a><a class="reveal" href="#pricing">Pricing</a><a class="reveal" href="#contact">Contact</a>
+  </nav>
+  <p class="mm-foot reveal">hello@yourstudio.com</p>
+</div>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="container">
+    <h1 class="t-title reveal"><span>Independent web studio designing</span><span>sites, 3D & motion that ship</span></h1>
+    <div class="hero-btns reveal" style="--d:.08s">
+      <a class="btn btn--primary" href="https://cal.com/" target="_blank" rel="noopener">Book a Free Call</a>
+      <a class="btn btn--secondary" href="#work">Explore services
+        <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M1 7h12M8 2l5 5-5 5"/></svg></a>
+    </div>
+    <div class="carousel reveal" id="carousel" style="--d:.16s" aria-roledescription="carousel" aria-label="Recent work">
+      <div class="car-track">
+        <div class="car-card"><div class="media"><div class="ph"><div class="cc-meta"><span>Halden</span><span>2026</span></div><span>loop · product site hero</span></div></div></div>
+        <div class="car-card dark"><div class="media"><div class="ph ph--dark"><div class="cc-meta"><span>Orra Skin</span><span>D2C</span></div><span>loop · 3d bottle turntable</span></div></div></div>
+        <div class="car-card"><div class="media"><div class="ph ph--mid"><div class="cc-meta"><span>Ledgerline</span><span>SaaS</span></div><span>loop · dashboard motion</span></div></div></div>
+        <div class="car-card"><div class="media"><div class="ph"><div class="cc-meta"><span>Casa Mira</span><span>Hospitality</span></div><span>loop · booking flow</span></div></div></div>
+        <div class="car-card dark"><div class="media"><div class="ph ph--dark"><div class="cc-meta"><span>Northbound</span><span>Brand</span></div><span>loop · identity reveal</span></div></div></div>
+        <div class="car-card"><div class="media"><div class="ph ph--mid"><div class="cc-meta"><span>Field Notes</span><span>Editorial</span></div><span>loop · scroll story</span></div></div></div>
+      </div>
+      <div class="car-nav">
+        <button class="car-btn car-prev" aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
+        <button class="car-btn car-next" aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SELECTED WORK ============ -->
+<section class="work" id="work">
+  <div class="container">
+    <div class="sticky-title"><h2 class="t-statement reveal">Client websites we've designed &amp; shipped</h2></div>
+    <div class="work-grid">
+      <a href="#" class="card group wg-1 reveal"><div class="card__img"><div class="ph"><span>project · halden homepage</span></div></div>
+        <h3 class="card__name link-draw-group"><span class="ld">Halden</span></h3><p class="card__meta"><i>Product website</i><i>2026</i></p></a>
+      <a href="#" class="card group wg-2 reveal"><div class="card__img"><div class="ph ph--dark"><span>project · orra skin pdp</span></div></div>
+        <h3 class="card__name link-draw-group"><span class="ld">Orra Skin</span></h3><p class="card__meta"><i>D2C e-commerce</i><i>2026</i></p></a>
+      <a href="#" class="card group wg-3 reveal"><div class="card__img"><div class="ph ph--mid"><span>project · ledgerline marketing</span></div></div>
+        <h3 class="card__name link-draw-group"><span class="ld">Ledgerline</span></h3><p class="card__meta"><i>SaaS marketing site</i><i>2025</i></p></a>
+      <a href="#" class="card group wg-4 reveal"><div class="card__img"><div class="ph"><span>project · casa mira</span></div></div>
+        <h3 class="card__name link-draw-group"><span class="ld">Casa Mira</span></h3><p class="card__meta"><i>Hospitality</i><i>2025</i></p></a>
+      <a href="#" class="card group wg-5 reveal"><div class="card__img"><div class="ph ph--dark"><span>project · northbound</span></div></div>
+        <h3 class="card__name link-draw-group"><span class="ld">Northbound</span></h3><p class="card__meta"><i>Real estate</i><i>2025</i></p></a>
+      <a href="#" class="card group wg-6 reveal"><div class="card__img"><div class="ph ph--mid"><span>project · field notes</span></div></div>
+        <h3 class="card__name link-draw-group"><span class="ld">Field Notes</span></h3><p class="card__meta"><i>Editorial platform</i><i>2024</i></p></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONCEPTS ============ -->
+<section class="section" style="padding-top:0">
+  <div class="container">
+    <div class="sh-row reveal"><h2>Concepts &amp; explorations from the studio</h2>
+      <a class="cta-link" href="#"><span class="cta-link__row">View all<span class="cta-link__circle"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M1 7h12M8 2l5 5-5 5"/></svg></span></span><span class="cta-link__line"><i></i><b></b></span></a></div>
+    <div class="scroller" data-stagger>
+      <a href="#" class="card group"><div class="card__img"><div class="ph"><span>concept · fintech onboarding</span></div></div><h3 class="card__name link-draw-group"><span class="ld">Kite — onboarding</span></h3><p class="card__meta"><i>Concept</i><i>2026</i></p></a>
+      <a href="#" class="card group"><div class="card__img"><div class="ph ph--dark"><span>concept · audio brand site</span></div></div><h3 class="card__name link-draw-group"><span class="ld">Low Tide Audio</span></h3><p class="card__meta"><i>Exploration</i><i>2026</i></p></a>
+      <a href="#" class="card group"><div class="card__img"><div class="ph ph--mid"><span>concept · architecture portfolio</span></div></div><h3 class="card__name link-draw-group"><span class="ld">Atelier Raum</span></h3><p class="card__meta"><i>Concept</i><i>2025</i></p></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 3D ============ -->
+<section class="section" style="padding-top:0">
+  <div class="container">
+    <div class="sh-row reveal"><h2>3D &amp; product rendering for launches that need to look real</h2>
+      <a class="cta-link" href="#"><span class="cta-link__row">3D services<span class="cta-link__circle"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M1 7h12M8 2l5 5-5 5"/></svg></span></span><span class="cta-link__line"><i></i><b></b></span></a></div>
+    <div class="render-card reveal">
+      <div class="ph ph--dark on" data-c="black"><span>render · phone, black colourway</span></div>
+      <div class="ph" data-c="white" style="background:repeating-linear-gradient(135deg,#0000 0 11px,#0000000a 11px 12px),#fafafa"><span>render · phone, white colourway</span></div>
+      <div class="ph ph--mid" data-c="grey"><span>render · phone, grey colourway</span></div>
+      <div class="swatcher">Phone colourways
+        <div class="swatches" role="group" aria-label="Colourway">
+          <button class="swatch" data-c="black" aria-pressed="true" aria-label="Black" style="background:#000"></button>
+          <button class="swatch" data-c="white" aria-pressed="false" aria-label="White" style="background:#fff"></button>
+          <button class="swatch" data-c="grey" aria-pressed="false" aria-label="Grey" style="background:#bdbdbd"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MOTION ============ -->
+<section class="section" style="padding-top:0">
+  <div class="container">
+    <div class="sh-row reveal"><h2>Motion graphics for launches, product UI &amp; social</h2>
+      <a class="cta-link" href="#"><span class="cta-link__row">Motion services<span class="cta-link__circle"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M1 7h12M8 2l5 5-5 5"/></svg></span></span><span class="cta-link__line"><i></i><b></b></span></a></div>
+    <div class="video-card reveal">
+      <div class="ph ph--dark"><i class="vc-bar"></i><i class="vc-dot"></i><span>video · 16:9 showreel (muted loop)</span></div>
+      <button class="play-pill"></button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BRAND IDENTITY ============ -->
+<section class="section" style="padding-top:0">
+  <div class="container">
+    <div class="sh-row reveal"><h2>Brand identities built to work on screen first</h2>
+      <a class="cta-link" href="#"><span class="cta-link__row">Brand identity services<span class="cta-link__circle"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M1 7h12M8 2l5 5-5 5"/></svg></span></span><span class="cta-link__line"><i></i><b></b></span></a></div>
+    <div class="grid-4" data-stagger>
+      <a href="#" class="group"><div class="tile"><div class="ph ph--dark"><span>board · logo system</span></div></div><p class="tile-cap">Northbound — Logo system</p></a>
+      <a href="#" class="group"><div class="tile"><div class="ph"><span>board · type & colour</span></div></div><p class="tile-cap">Orra — Type &amp; colour</p></a>
+      <a href="#" class="group"><div class="tile"><div class="ph ph--mid"><span>board · packaging</span></div></div><p class="tile-cap">Orra — Packaging</p></a>
+      <a href="#" class="group"><div class="tile"><div class="ph"><span>board · stationery</span></div></div><p class="tile-cap">Halden — Stationery</p></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SOCIAL ============ -->
+<section class="section--sm" style="padding-top:0">
+  <div class="container">
+    <div class="sh-row reveal"><h2>Social media design that matches the website</h2>
+      <a class="cta-link" href="#"><span class="cta-link__row">Social design<span class="cta-link__circle"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M1 7h12M8 2l5 5-5 5"/></svg></span></span><span class="cta-link__line"><i></i><b></b></span></a></div>
+    <div class="grid-4" data-stagger>
+      <div><div class="tile"><div class="ph"><span>post · 4:5</span></div></div><p class="tile-cap">Brand intro</p></div>
+      <div><div class="tile"><div class="ph ph--dark"><span>post · 4:5</span></div></div><p class="tile-cap">Manifesto</p></div>
+      <div><div class="tile"><div class="ph ph--mid"><span>post · 4:5</span></div></div><p class="tile-cap">Editorial</p></div>
+      <div><div class="tile"><div class="ph"><span>post · 4:5</span></div></div><p class="tile-cap">Hiring post</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STACK MARQUEE ============ -->
+<section class="stack" aria-label="Technology stack">
+  <p class="stack-label">The stack we build on</p>
+  <div class="marquee">
+    <div class="marquee__row" id="mq"></div>
+    <div class="marquee__row" id="mq2" aria-hidden="true"></div>
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section class="section" id="process">
+  <div class="container">
+    <div class="sh-center"><h2 class="t-statement reveal">How a project runs, from first call to handover</h2></div>
+    <ol class="process-list" data-stagger>
+      <li><article class="pcard"><span class="pcard__num">01</span>
+        <div class="pcard__panel"><div class="mu-chat"><span class="r">What are you building?</span><span class="l">A site for our launch</span><span class="r">Let's scope it</span></div></div>
+        <div class="pcard__text"><h3>Intro call</h3><p>30 minutes to understand the goal, the deadline and what success looks like. No pitch deck.</p></div></article></li>
+      <li><article class="pcard"><span class="pcard__num">02</span>
+        <div class="pcard__panel"><div class="mu-doc"><header><span>Proposal</span><em>Fixed price</em></header><i style="width:92%"></i><i style="width:76%"></i><i style="width:84%"></i><i style="width:60%"></i></div></div>
+        <div class="pcard__text"><h3>Scope &amp; proposal</h3><p>A written scope with pages, deliverables, timeline and a fixed price within 48 hours.</p></div></article></li>
+      <li><article class="pcard"><span class="pcard__num">03</span>
+        <div class="pcard__panel"><div class="mu-figma">
+          <i class="mob"></i>
+          <span class="lbl">Home / Desktop</span>
+          <i class="desk"></i>
+          <i class="h" style="left:calc(34% - 3px);top:calc(26% - 3px)"></i><i class="h" style="left:calc(80% - 3px);top:calc(26% - 3px)"></i>
+          <i class="h" style="left:calc(34% - 3px);top:calc(78% - 3px)"></i><i class="h" style="left:calc(80% - 3px);top:calc(78% - 3px)"></i>
+          <span class="sw"><i style="background:#000"></i><i style="background:#888"></i><i style="background:#d4d4d4"></i><i style="background:#fff;box-shadow:inset 0 0 0 1px #0002"></i></span>
+          <span class="cm">2</span>
+          <span class="cur"><svg viewBox="0 0 14 14"><path d="M1 1l4.5 12 1.8-5.2L12.5 6z" fill="#000" stroke="#fff" stroke-width="1"/></svg><em>You</em></span>
+        </div></div>
+        <div class="pcard__text"><h3>Design</h3><p>Desktop and mobile designed together in Figma, reviewed live with comments, not email chains.</p></div></article></li>
+      <li><article class="pcard"><span class="pcard__num">04</span>
+        <div class="pcard__panel"><div class="mu-code"><span class="k">export default</span> Page<br><span class="c">// staging deployed</span><br><span class="pill"><i></i>staging.live</span></div></div>
+        <div class="pcard__text"><h3>Build</h3><p>Hand-coded in Next.js with a CMS your team can edit. A staging link from week one.</p></div></article></li>
+      <li><article class="pcard"><span class="pcard__num">05</span>
+        <div class="pcard__panel"><div class="mu-checks">
+          <span><i class="chk"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 5.2l2 2 4-4.4"/></svg></i>Redirects</span>
+          <span><i class="chk"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 5.2l2 2 4-4.4"/></svg></i>Analytics</span>
+          <span><i class="chk"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 5.2l2 2 4-4.4"/></svg></i>Handover</span></div></div>
+        <div class="pcard__text"><h3>Launch &amp; handover</h3><p>Redirects, analytics and SEO checked before go-live, then a recorded walkthrough of everything.</p></div></article></li>
+      <li><article class="pcard"><span class="pcard__num">06</span>
+        <div class="pcard__panel"><div class="mu-week"><div><b>Mon</b>Priorities in writing</div><div><b>Wed</b>Async progress video</div><div><b>Fri</b>Review call (30 min)</div></div></div>
+        <div class="pcard__text"><h3>What a week looks like</h3><p>A predictable rhythm so you always know what's happening without chasing anyone.</p></div></article></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ INDUSTRIES ============ -->
+<section class="section--sm">
+  <div class="container">
+    <div class="sh-center" style="margin-bottom:40px"><h2 class="t-statement reveal">Industries we know well</h2></div>
+    <div class="pills reveal">
+      <a href="#" class="pill-tag">SaaS</a><a href="#" class="pill-tag">D2C</a><a href="#" class="pill-tag">Fashion</a><a href="#" class="pill-tag">Real estate</a>
+      <a href="#" class="pill-tag">Hospitality</a><a href="#" class="pill-tag">Healthcare</a><a href="#" class="pill-tag">Fintech</a><a href="#" class="pill-tag">Education</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TIME ZONES ============ -->
+<section class="section">
+  <div class="container">
+    <div class="sh-center"><h2 class="t-statement reveal">How we work across time zones</h2></div>
+    <div class="tz-grid" data-stagger>
+      <div class="tz-item"><div class="tz-panel"><div class="slack">
+          <header><span># studio-yourbrand</span><em>Slack Connect</em></header>
+          <div class="msg"><span class="av">AK</span><div><p class="nm">Arjun K. <em>18:30 IST · 09:00 ET</em></p><p class="tx">Pricing page is on staging. Loom walkthrough attached.</p></div></div>
+          <div class="msg"><span class="av w">SM</span><div><p class="nm">Sarah M. <em>09:12 ET · 18:42 IST</em></p><p class="tx">Love it. Two small notes on the FAQ, left in Figma.</p></div></div>
+        </div></div>
+        <h3>One shared channel</h3><p>Your team and ours in one Slack Connect channel. No ticket portals.</p></div>
+      <div class="tz-item"><div class="tz-panel"><div class="tzbars" id="tzbars"></div></div>
+        <h3>Fixed overlap hours</h3><p id="tz-caption">Guaranteed live hours every weekday, the rest happens async.</p></div>
+      <div class="tz-item"><div class="tz-panel"><div class="kanban">
+          <h4>Website build · Week 6</h4>
+          <div class="kb-cols">
+            <div class="kb-col"><b>In progress</b><div class="kb-task">Pricing page build<span class="av">AK</span></div><div class="kb-task">Case study CMS<span class="av">RN</span></div></div>
+            <div class="kb-col"><b>In review</b><div class="kb-task">FAQ copy v2<span class="av w">SM</span></div></div>
+            <div class="kb-col"><b>Done</b><div class="kb-task">Home hero motion<span class="av">AK</span></div><div class="kb-task">Nav &amp; footer<span class="av">RN</span></div></div>
+          </div></div></div>
+        <h3>A board you can check anytime</h3><p>Every task, owner and status in one Notion board, updated daily.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="section" id="testimonials">
+  <div class="container">
+    <div class="tm-head reveal">
+      <h2>Clients on working with us</h2>
+      <div class="rating">
+        <div class="rating__num"><strong>5.0</strong><span class="stars" aria-label="5 out of 5 stars">
+          <svg viewBox="0 0 16 16"><path d="M8 1l2.1 4.6 5 .5-3.8 3.4 1.1 4.9L8 11.9 3.6 14.4l1.1-4.9L.9 6.1l5-.5z"/></svg><svg viewBox="0 0 16 16"><path d="M8 1l2.1 4.6 5 .5-3.8 3.4 1.1 4.9L8 11.9 3.6 14.4l1.1-4.9L.9 6.1l5-.5z"/></svg><svg viewBox="0 0 16 16"><path d="M8 1l2.1 4.6 5 .5-3.8 3.4 1.1 4.9L8 11.9 3.6 14.4l1.1-4.9L.9 6.1l5-.5z"/></svg><svg viewBox="0 0 16 16"><path d="M8 1l2.1 4.6 5 .5-3.8 3.4 1.1 4.9L8 11.9 3.6 14.4l1.1-4.9L.9 6.1l5-.5z"/></svg><svg viewBox="0 0 16 16"><path d="M8 1l2.1 4.6 5 .5-3.8 3.4 1.1 4.9L8 11.9 3.6 14.4l1.1-4.9L.9 6.1l5-.5z"/></svg></span></div>
+        <a href="#" target="_blank" rel="noopener">32 reviews on Google ↗</a>
+      </div>
+    </div>
+    <div class="tm-grid" data-stagger>
+      <figure class="tm-card section-dark"><div class="tm-img"><div class="ph ph--dark"><span>portrait · client</span></div></div>
+        <div class="tm-body"><blockquote>"They scoped it in a day, shipped in six weeks and the site still feels like ours. Easiest agency we've worked with."</blockquote>
+        <figcaption><div>Sarah Mitchell<span>Head of Marketing, Ledgerline</span></div><a class="link-draw" href="#">ledgerline.io ↗</a></figcaption></div></figure>
+      <figure class="tm-card"><div class="tm-img"><div class="ph ph--mid"><span>portrait · client</span></div></div>
+        <div class="tm-body"><blockquote>"The 3D renders carried our whole launch. We used them on the site, in ads and on the packaging."</blockquote>
+        <figcaption><div>Ravi Nair<span>Founder, Orra Skin</span></div><a class="link-draw" href="#">orraskin.com ↗</a></figcaption></div></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRICING ============ -->
+<section class="section" id="pricing" style="padding-top:0">
+  <div class="container">
+    <div class="sh-center"><h2 class="t-statement reveal">Fixed prices, written scopes</h2>
+      <div class="cur-toggle reveal" role="group" aria-label="Currency"><span class="cur-thumb"></span>
+        <button data-cur="usd" aria-pressed="true">USD</button><button data-cur="inr" aria-pressed="false">INR</button></div></div>
+    <div class="price-grid" data-stagger>
+      <article class="price" data-usd="4800" data-inr="350000"><h3>Launch</h3><p class="desc">A focused marketing site for a new product or brand.</p>
+        <p class="from">From</p><p class="amt"><strong>$4,800</strong><em>USD</em></p>
+        <ul><li><i class="chk"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 5.2l2 2 4-4.4"/></svg></i>Up to 5 pages</li><li><i class="chk"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 5.2l2 2 4-4.4"/></svg></i>Design + build in 4 weeks</li><li><i class="chk"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 5.2l2 2 4-4.4"/></svg></i>CMS &amp; handover</li></ul>
+        <a class="btn btn--primary btn--block" href="#contact">Start a project</a></article>
+      <article class="price section-dark" data-usd="12000" data-inr="900000"><h3>Growth</h3><p class="desc">A full website with motion, case studies and a CMS for your team.</p>
+        <p class="from">From</p><p class="amt"><strong>$12,000</strong><em>USD</em></p>
+        <ul><li><i class="chk"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 5.2l2 2 4-4.4"/></svg></i>Up to 15 pages</li><li><i class="chk"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 5.2l2 2 4-4.4"/></svg></i>Custom motion &amp; interactions</li><li><i class="chk"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 5.2l2 2 4-4.4"/></svg></i>30 days post-launch support</li></ul>
+        <a class="btn btn--invert btn--block" href="#contact">Start a project</a></article>
+      <article class="price" data-usd="3200" data-inr="240000"><h3>3D &amp; Motion</h3><p class="desc">Product renders and launch films, standalone or alongside a site.</p>
+        <p class="from">From</p><p class="amt"><strong>$3,200</strong><em>USD</em></p>
+        <ul><li><i class="chk"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 5.2l2 2 4-4.4"/></svg></i>Modelled product &amp; colourways</li><li><i class="chk"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 5.2l2 2 4-4.4"/></svg></i>10 stills + 1 hero loop</li><li><i class="chk"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 5.2l2 2 4-4.4"/></svg></i>Web &amp; social exports</li></ul>
+        <a class="btn btn--primary btn--block" href="#contact">Start a project</a></article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ JOURNAL ============ -->
+<section class="section" style="padding-top:0">
+  <div class="container">
+    <div class="sh-row reveal"><h2>Brand studies &amp; notes from the studio</h2>
+      <a class="cta-link" href="#"><span class="cta-link__row">View all<span class="cta-link__circle"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M1 7h12M8 2l5 5-5 5"/></svg></span></span><span class="cta-link__line"><i></i><b></b></span></a></div>
+    <div class="scroller" data-stagger>
+      <a href="#" class="card group"><div class="card__img"><div class="ph ph--mid"><span>cover · brand study</span></div></div><h3 class="card__name link-draw-group"><span class="ld">Why the best SaaS homepages say less</span></h3><p class="card__meta"><i>Brand study</i><i>6 min</i></p></a>
+      <a href="#" class="card group"><div class="card__img"><div class="ph"><span>cover · article</span></div></div><h3 class="card__name link-draw-group"><span class="ld">Scoping a website in one call</span></h3><p class="card__meta"><i>Process</i><i>4 min</i></p></a>
+      <a href="#" class="card group"><div class="card__img"><div class="ph ph--dark"><span>cover · article</span></div></div><h3 class="card__name link-draw-group"><span class="ld">When 3D beats photography</span></h3><p class="card__meta"><i>3D</i><i>5 min</i></p></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section" style="padding-top:0">
+  <div class="container">
+    <div class="sh-row reveal"><h2>Answers to the questions we hear most often.</h2>
+      <a class="cta-link" href="#"><span class="cta-link__row">View all FAQs<span class="cta-link__circle"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M1 7h12M8 2l5 5-5 5"/></svg></span></span><span class="cta-link__line"><i></i><b></b></span></a></div>
+    <div class="faq reveal" id="faq"></div>
+  </div>
+</section>
+
+<!-- ============ CONTACT CTA ============ -->
+<section class="contact" id="contact">
+  <div class="container contact-grid">
+    <div class="contact-left reveal"><a class="link-draw" href="mailto:hello@yourstudio.com" style="align-self:flex-start">hello@yourstudio.com</a><span class="muted">Bengaluru, India · working with clients worldwide</span></div>
+    <div class="reveal" style="--d:.08s"><h2 class="t-statement">Have something worth building?</h2>
+      <a class="start-link" href="https://cal.com/" target="_blank" rel="noopener">Start a project
+        <svg viewBox="0 0 26 26" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M7 19L19 7M9 7h10v10"/></svg></a></div>
+  </div>
+</section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="footer-in">
+    <div class="socials">
+      <a class="soc" href="#" aria-label="Instagram"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="2" y="2" width="12" height="12" rx="3.5"/><circle cx="8" cy="8" r="2.8"/><circle cx="11.6" cy="4.4" r=".6" fill="currentColor"/></svg></a>
+      <a class="soc" href="#" aria-label="YouTube"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="1.5" y="3.5" width="13" height="9" rx="2.5"/><path d="M6.8 6v4l3.4-2z" fill="currentColor" stroke="none"/></svg></a>
+      <a class="soc" href="#" aria-label="LinkedIn"><svg viewBox="0 0 16 16" fill="currentColor"><rect x="2.5" y="6" width="2.4" height="7.5"/><circle cx="3.7" cy="3.5" r="1.4"/><path d="M6.8 6h2.3v1.1c.4-.7 1.3-1.3 2.5-1.3 2 0 2.4 1.3 2.4 3v4.7h-2.4V9.4c0-.9-.1-1.7-1.1-1.7-1 0-1.3.8-1.3 1.7v4.1H6.8z"/></svg></a>
+      <a class="soc" href="#" aria-label="Behance"><span style="font-size:11px;font-weight:600;letter-spacing:-.04em">Bē</span></a>
+      <a class="soc" href="#" aria-label="Dribbble"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.3"><circle cx="8" cy="8" r="6"/><path d="M3 4.5c3 2 7 2.4 10 1.6M2.2 9c3.3-1.3 7.4-1 10.4 1.2M6 2.4c2 2.4 3.4 6.4 3.8 11.2"/></svg></a>
+      <a class="soc" href="#" aria-label="X"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 3l10 10M13 3L3 13"/></svg></a>
+    </div>
+    <div class="dot-stage"><canvas id="dot-canvas" aria-label="studioname" role="img"></canvas></div>
+    <p class="f-lead">Have a project in mind? Starting one is as easy as sending an email.</p>
+    <div><button class="big-mail" aria-label="Copy email address">hello@yourstudio.com<u></u></button></div>
+    <div class="f-cols">
+      <div class="f-col"><span>Bengaluru, India</span><a class="link-draw" href="tel:+910000000000">+91 00000 00000</a><a class="link-draw dim" href="#">Studio in Bengaluru</a><a class="link-draw dim" href="#">Clients in London</a></div>
+      <div class="f-col"><a class="link-draw" href="#">Web design</a><a class="link-draw" href="#">Development</a><a class="link-draw" href="#">3D rendering</a><a class="link-draw" href="#">Motion graphics</a><a class="link-draw" href="#">Brand identity</a></div>
+      <div class="f-col end"><a class="link-draw" href="#">Services</a><a class="link-draw" href="#pricing">Pricing</a><a class="link-draw" href="#">About</a><a class="link-draw" href="#">Team</a><a class="link-draw" href="#work">Works</a><a class="link-draw" href="#">Industries</a><a class="link-draw" href="#">Blog</a></div>
+      <div class="f-col end"><a class="link-draw" href="#contact">Contact</a><a class="link-draw" href="#faq">FAQ</a><a class="link-draw" href="#">Privacy</a><a class="link-draw" href="#">Terms</a><a class="link-draw" href="#">Cookie preferences</a><span class="dim" style="margin-top:8px">© 2026 studioname</span></div>
+    </div>
+  </div>
+</footer>
+
+<div class="pblur" aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div></div>
+<div class="toast" id="toast" role="status">Copied to clipboard</div>
+
+<script>
+/* Marquee + FAQ content */
+(function(){
+  const I = {
+    'Next.js':'<svg viewBox="0 0 18 18"><circle cx="9" cy="9" r="8" fill="#000"/><path d="M6.5 5.5v7M6.5 5.5l5.5 7.5M11.5 5.5v4.5" stroke="#fff" stroke-width="1.3" fill="none"/></svg>',
+    'React':'<svg viewBox="0 0 18 18" fill="none" stroke="#000" stroke-width="1.1"><ellipse cx="9" cy="9" rx="8" ry="3.2"/><ellipse cx="9" cy="9" rx="8" ry="3.2" transform="rotate(60 9 9)"/><ellipse cx="9" cy="9" rx="8" ry="3.2" transform="rotate(120 9 9)"/><circle cx="9" cy="9" r="1.4" fill="#000"/></svg>',
+    'Astro':'<svg viewBox="0 0 18 18"><path d="M9 1.5L14 15H11.4L9 8.3 6.6 15H4z" fill="#000"/></svg>',
+    'GSAP':'<svg viewBox="0 0 18 18"><rect x="1" y="1" width="16" height="16" rx="4" fill="#000"/><path d="M5 11.5c2-5 5-5 8-5" stroke="#fff" stroke-width="1.5" fill="none"/></svg>',
+    'Framer':'<svg viewBox="0 0 18 18" fill="#000"><path d="M4 1.5h10v5H9zM4 6.5h5l5 5H4zM4 11.5h5v5z"/></svg>',
+    'Three.js':'<svg viewBox="0 0 18 18" fill="none" stroke="#000" stroke-width="1.2"><path d="M2 16L5 2l11 11z"/><path d="M3.5 9L10.5 7.5 8.8 14.6"/></svg>',
+    'Sanity (CMS)':'<svg viewBox="0 0 18 18"><rect x="1" y="1" width="16" height="16" rx="4" fill="#000"/><path d="M12 6.2c-.6-.8-1.6-1.2-2.8-1.2-1.6 0-2.7.8-2.7 2 0 2.6 5.3 1.4 5.3 4 0 1.2-1.2 2-2.9 2-1.3 0-2.4-.5-3-1.4" stroke="#fff" stroke-width="1.3" fill="none"/></svg>'
+  };
+  const html = Object.entries(I).map(([k,v])=>`<span class="mq-item">${v}${k}</span>`).join('');
+  document.getElementById('mq').innerHTML = html; document.getElementById('mq2').innerHTML = html;
+
+  const F = [
+    ['How long does a typical website take?','Most marketing sites take 4–8 weeks from intro call to launch. Smaller launch sites can go live in under four. You get a dated timeline in the proposal.'],
+    ['Do you work with clients outside India?','Yes — most of our clients are in the UK, EU and US. We keep fixed overlap hours and run everything async in between, so there is no waiting a day for answers.'],
+    ['What do you need from us to start?','A 30-minute intro call, any existing brand assets and one decision-maker who can give feedback within a couple of days.'],
+    ['Can we edit the site ourselves after launch?','Yes. We build on a headless CMS like Sanity and hand over with a recorded walkthrough, so your team can publish without us.'],
+    ['Do you offer ongoing support?','Every project includes post-launch support. After that, we offer a simple monthly retainer for new pages, experiments and updates.']
+  ];
+  document.getElementById('faq').innerHTML = F.map(([q,a],i)=>`<div class="faq-item"><button class="faq-q" aria-expanded="false" aria-controls="faq-a-${i}" id="faq-q-${i}"><span>${q}</span><i class="plus" aria-hidden="true"></i></button><div class="faq-a" id="faq-a-${i}" role="region" aria-labelledby="faq-q-${i}"><div><p>${a}</p></div></div></div>`).join('');
+})();
+</script>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="dots.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
